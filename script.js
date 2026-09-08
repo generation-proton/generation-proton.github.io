@@ -762,8 +762,8 @@ function randomizeAwg2() {
     }
 }
 function randomizeWireSock() {
-    const domains = ['apteka.ru', 'psbank.ru', 'lenta.ru', 'www.pochta.ru', 'rzd.ru', 'rutube.ru', 'gosuslugi.ru'];
-    const randomDomain = domains[Math.floor(Math.random() * domains.length)];
+    const domains = ['2gis.ru', 'apteka.ru', 'autonews.ru', 'beeline.ru', 'deepseek.com', 'mail.ru', 'max.ru', 'pochta.ru', 'profi.ru', 'psbank.ru', 'pypi.org', 'rt.ru', 'rutube.ru', 'sberbank.ru', 'vk.ru'];
+	const randomDomain = domains[Math.floor(Math.random() * domains.length)];
 
     const idInput = document.getElementById('id');
     if (idInput) {
