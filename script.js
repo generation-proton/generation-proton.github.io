@@ -897,6 +897,7 @@ const domains = [
     'mariinsky.ru',
     'matchtv.ru',
     'med-otzyv.ru',
+    'medelement.com',
     'medi.ru',
     'mediametrics.ru',
     'medicalinsider.ru',
