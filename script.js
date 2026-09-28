@@ -64,8 +64,8 @@ function checkCachedSession() {
         }
 
 async function apiRequest(endpoint, body = null) {
-            const baseUrl = 'https://proton-api.vercel.app'
-            //const baseUrl = 'https://proton-api.eleutherifer.workers.dev'
+            //const baseUrl = 'https://proton-api.vercel.app'
+            const baseUrl = 'https://proton-api.eleutherifer.workers.dev'
             const headers = { 'Content-Type': 'application/json' };
             const options = {
                 method: 'POST', 
