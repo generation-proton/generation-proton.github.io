@@ -320,8 +320,18 @@ margin-bottom: 0px;
 }
 
 #musor4div {grid-template-columns: repeat(2, 1fr);}
+#client {
+	display: grid;
+	grid-template-columns: repeat(4, max-content);
+	justify-content: center;
+	gap: 20px;
+}
 
 @media (max-width: 650px) {
+ #client {
+ grid-template-columns: repeat(2, max-content);
+ justify-items: start;
+ }
   body {padding: 0 !important}
  #maindiv {padding: 10px}
  #awgdiv {display: inline-block}
@@ -335,7 +345,9 @@ margin-bottom: 0px;
  #musor4div {grid-template-columns: repeat(1, 1fr);}
 }
 
-
+@media (max-width: 350px) {
+ #client {grid-template-columns: repeat(1, max-content);}
+}
 
 
 
