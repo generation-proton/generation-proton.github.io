@@ -64,7 +64,7 @@ function checkCachedSession() {
         }
 
 async function apiRequest(endpoint, body = null) {
-            const baseUrl = 'https://proton-api.vercel.app'
+            const baseUrl = 'https://www.api-proton.workers.dev'
             const headers = { 'Content-Type': 'application/json' };
             const options = {
                 method: 'POST', 
@@ -727,7 +727,9 @@ async function downloadAllZip() {
         const zip = new JSZip();
 
         const isClash = document.getElementById('clash')?.checked;
-        const ext = isClash ? 'yaml' : 'conf';
+		const isXray = document.getElementById('xray')?.checked;
+        let ext = 'conf';
+		if (isXray) {ext = 'json'} else if (isClash) {ext = 'yaml'}
 
         serversList.forEach(server => {
             // Имя файла остается в безопасном формате с подчеркиванием
