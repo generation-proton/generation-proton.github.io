@@ -1006,7 +1006,6 @@ const domains = [
     'mob-edu.ru',
     'moluch.ru',
     'moskb.ru',
-    'mts.ru',
     'multiurok.ru',
     'mybook.ru',
     'myskills.ru',
