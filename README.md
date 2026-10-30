@@ -1,0 +1,40 @@
+# В данном форке
+
+* Изменён список SNI для WireSock, убраны:  
+2gis.ru  
+av.ru  
+bashinform.ru  
+beeline.ru  
+cdek.ru  
+delimobil.ru  
+dellin.ru  
+dixy.ru  
+dns-shop.ru  
+dzen.ru  
+fedsfm.ru  
+gismeteo.ru  
+habr.ru  
+kinopoisk.ru  
+kommersant.ru  
+kp.ru  
+lizaalert.org  
+m24.ru  
+magnit.ru  
+mail.ru  
+megafon.ru  
+mts.ru  
+ntv.ru  
+pikabu.ru  
+psbank.ru  
+rbc.ru  
+ria.ru  
+rt.ru  
+sportmail.ru  
+tatar-inform.ru  
+tele2.ru  
+ura.news  
+vgtrk.ru  
+vk.ru  
+vkvideo.ru  
+* Если I2 не задан, то задаётся таким же как I1. Дублирование требуется, например, чтобы работало в сети Wi-Fi в метро MT_FREE  
+* Меняется конфиг При изменении сервера в выпадающем списке  
