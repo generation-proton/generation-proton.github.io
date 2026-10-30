@@ -234,6 +234,10 @@ function renderServersList(countryFilter) {
 
                 select.appendChild(optgroup);
             });
+            // Автоматически перегенерируем конфиг, если блок результатов уже показан
+            if (!document.getElementById('step3').classList.contains('hidden')) {
+                generateConfig();
+            }
         }
 
 async function connectProxy() {
