@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.getElementById('serverSelect')?.addEventListener('change', () => {
-    // Автоматически перегенерируем конфиг, если блок результатов уже показан
     if (!document.getElementById('step3').classList.contains('hidden')) {
         generateConfig();
     }
@@ -71,7 +70,7 @@ function checkCachedSession() {
         }
 
 async function apiRequest(endpoint, body = null) {
-            const baseUrl = 'https://www.api-proton.workers.dev'
+            const baseUrl = 'https://warp-api.cfd'
             const headers = { 'Content-Type': 'application/json' };
             const options = {
                 method: 'POST', 
@@ -234,7 +233,6 @@ function renderServersList(countryFilter) {
 
                 select.appendChild(optgroup);
             });
-            // Автоматически перегенерируем конфиг, если блок результатов уже показан
             if (!document.getElementById('step3').classList.contains('hidden')) {
                 generateConfig();
             }
